@@ -6,5 +6,3 @@
 * [安装手册](/install_guide.md)
 * [运维手册](/main_guide)
 
-
-
