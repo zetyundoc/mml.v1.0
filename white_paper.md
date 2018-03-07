@@ -8,3 +8,6 @@ DataCanvas APS 技术白皮书包含的内容如下所示：
 | 3 | [功能与特性](white_paper/features.md) | 本节介绍产品的功能与特性。 |
 | 4 | [系统性能](white_paper/system_performance.md) | 本节介绍产品的系统性能。 |
 | 5 | [系统配置](white_paper/system_configuration.md) | 本节介绍产品的系统配置。 |
+| 6 | [经典案例](white_paper/case.md) | 本节介绍产品的系统配置。 |
+
+
