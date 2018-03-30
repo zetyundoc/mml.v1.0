@@ -6,4 +6,3 @@ DataCanvas MML 用户手册包含的内容如下所示：
 | 1 | [日志中心](user_guide/quick_start.md) | 本节介绍APS的基本功能。 |
 | 2 | [告警管理](user_guide/analysis_app.md) | 本节介绍如何使用APS进行数据分析。 |
 | 3 | [用户中心](user_guide/user_center.md) | 本节介绍如何进行用户密码修改等安全设置。 |
-| 4 | [附录：日志检索语句](user_guide/log_search.md) | 本节介绍数据应用示例。 |

@@ -21,6 +21,7 @@
   * [系统配置](white_paper/system_configuration.md)
   * [经典案例](white_paper/case.md)
 * [用户手册](/user_guide.md)
+* [日志检索语法参考](log_search.md)
 * [安装手册](/install_guide.md)
 * [运维手册](/main_guide.md)
 
