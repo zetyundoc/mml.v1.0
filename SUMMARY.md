@@ -23,5 +23,5 @@
 * [用户手册](/user_guide.md)
 * [日志检索语法参考](log_search.md)
 * [安装手册](/install_guide.md)
-* [运维手册](/main_guide.md)
+* [运维手册](/operation_guide.md)
 
