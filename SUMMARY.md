@@ -25,7 +25,15 @@
   * [BNF范式](log_search/BNF.md)
   * [命令分类](log_search/classification.md)
   * [命令列表](log_search/command.md)
+    * [索引](log_search/command/index.md)
+    * [转换](log_search/command/convert.md)
+    * [过滤](log_search/command/filter.md)
+    * [排序](log_search/command/sorting.md)
+    * [聚合](log_search/command/polymerization.md)
   * [附录](log_search/appendix.md)
+    * 聚合函数列表
+    * 时间跨度单位表
+    * 时间格式化
 * [安装手册](/install_guide.md)
 * [运维手册](/operation_guide.md)
 
