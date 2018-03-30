@@ -22,6 +22,10 @@
   * [经典案例](white_paper/case.md)
 * [用户手册](/user_guide.md)
 * [日志检索语法参考](log_search.md)
+  * [BNF范式](log_search/BNF.md)
+  * [命令分类](log_search/classification.md)
+  * [命令列表](log_search/command.md)
+  * [附录](log_search/appendix.md)
 * [安装手册](/install_guide.md)
 * [运维手册](/operation_guide.md)
 
