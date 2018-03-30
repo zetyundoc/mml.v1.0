@@ -1,7 +1,7 @@
 #Vindex
 ###描述
 可搜索拟索引。
-语法
+33语法
 vindex <virtual-index-name>
 参数说明
 <virtual-index-name>
