@@ -9,3 +9,10 @@
 |7|	聚合检索|	index opm*&#124 stats sum(int_cl) as Ttime by path|
 |8|	聚合检索|	index opm_*|filter state=="Begin"|stats distinct_count(tradeid) as count_trans by appid|
 |9|	聚合检索	|index opm_*|filter state=="Begin"|stats distinct_count(tradeid) as count_trans by appid,msid|
+|10	|聚合检索|	index opm_*|filter state=="Begin"|stats distinct_count(tradeid) as count_trans by appid,host|
+|11	|聚合检索	|index opm_* &#124 case state when "Begin" then 1 when "End" -1 else 0 end as reccode&#124 stats sum(reccode) as sum_reccode by appid,msid,tradeid &#124 filter sum_reccode == 0 &#124stats count(sum_reccode) as count_trans by appid,msid|
+|12	|聚合检索|	index  opm_* &#124 case state when "Begin" then 1 when "End" -1 else 0 end as reccode&#124stats sum(reccode) as sum_reccode by appid,host,tradeid&#124filter sum_reccode == 0 &#124stats count(sum_reccode) as count_trans by appid,host|
+|13|	聚合检索|	index opm_* |filter state=="Exception"|stats count(state) as count_exception by appid|
+|14|	聚合检索|	index opm_* | filter state == "Exception" | stats count(state) as count_exception by appid,msid|
+|15|	聚合检索	|index opm_* | filter state == "Exception" | stats count(state) as count_exception by appid,host|
+
