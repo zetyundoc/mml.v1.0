@@ -5,17 +5,18 @@
 
 ### 开启SSH服务
 在MML的安装过程中，需要通过SSH登录各主机，因此需要在集群中每个主机上启动SSH服务。
+
 1. 启动SSH服务
 
-```
-# service sshd start
-```
+    ```
+    # service sshd start
+    ```
 
 2. 将SSH设置为自启动服务。
 
-```
-# chkconfig sshd on
-```
+    ```
+    # chkconfig sshd on
+    ```
 
 ### 设置无密码SSH登录
 
