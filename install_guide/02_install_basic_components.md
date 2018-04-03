@@ -48,7 +48,6 @@
 
     MML要求集群内所有主机必须在同一局域网内且可以正常通信，否则MML的安装和使用都会受到影响。
 
-
     ```
     # ping <remote_host>
     ```
@@ -57,7 +56,6 @@
 * 设置主机名
 
     使用hostnamectl命令在集群中每个主机上设置主机名。例如:
-
 
     ```
     # hostnamectl set-hostname=<fully.qualified.domain.name> --static
