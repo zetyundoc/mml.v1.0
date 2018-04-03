@@ -39,7 +39,7 @@
 ### 检查网络和主机名
 * 查询主机IP地址
 
-    使用ip address命令分别查询每个主机的IP地址，接下来在MML的安装过程中需要配置这些IP地址(每个IP地址与主机上指定的网卡相绑定)，而不是配置弹性IP、映射IP或者虚拟IP，否则安装过程将会出现异常。
+    使用**ip address**命令分别查询每个主机的IP地址，接下来在MML的安装过程中需要配置这些IP地址(每个IP地址与主机上指定的网卡相绑定)，而不是配置弹性IP、映射IP或者虚拟IP，否则安装过程将会出现异常。
 
     ```
     # ip addr
@@ -55,7 +55,7 @@
 
 * 设置主机名
 
-    使用hostnamectl命令在集群中每个主机上设置主机名。例如:
+    使用**hostnamectl**命令在集群中每个主机上设置主机名。例如:
 
     ```
     # hostnamectl set-hostname=<fully.qualified.domain.name> --static
