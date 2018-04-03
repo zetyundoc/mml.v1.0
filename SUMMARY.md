@@ -38,8 +38,8 @@
       * [sort](log_search/command/sorting/sort.md)
     * [聚合](log_search/command/polymerization.md)
       * [stats](log_search/command/polymerization/stats.md)
-      * bucket
-      * transaction
+      * [bucket](log_search/command/polymerization/bucket.md)
+      * [transaction](log_search/command/polymerization/transaction.md)
       * top
       * movingavg
   * [附录](log_search/appendix.md)
