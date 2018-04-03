@@ -17,13 +17,11 @@
       <td>MML基础组件</td>
    </tr>
    <tr>
-      <td></td>
       <td>192.168.80.164</td>
       <td>base2</td>
       <td>MML基础组件</td>
    </tr>
    <tr>
-      <td></td>
       <td>192.168.80.165</td>
       <td>base3</td>
       <td>MML基础组件</td>
@@ -34,7 +32,7 @@
       <td>baseapp1</td>
       <td>MML应用</td>
    </tr>
-   <tr>
-      <td></td>
-   </tr>
 </table>
+
+## 安装流程
+DataCanvas MML的安装流程如下表所示：
