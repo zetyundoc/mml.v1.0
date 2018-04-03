@@ -33,7 +33,7 @@
       * [lookup](log_search/command/convert/lookup.md)
     * [过滤](log_search/command/filter.md)
       * [filter](log_search/command/filter/filter.md)
-      * limit
+      * [limit](log_search/command/filter/limit.md)
     * [排序](log_search/command/sorting.md)
     * [聚合](log_search/command/polymerization.md)
   * [附录](log_search/appendix.md)
