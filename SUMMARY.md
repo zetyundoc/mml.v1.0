@@ -1,5 +1,4 @@
-#
-Summary
+# Summary
 
 * [DataCanvas MML 产品文档](/README.md)
 * [产品白皮书](/white_paper.md)
@@ -45,5 +44,9 @@ Summary
     * [聚合函数列表](log_search/appendix/aggregation_list.md)
     * [日志检索语句示例](log_search/appendix/example.md)
 * [安装手册](/install_guide.md)
+  * [安装准备](install_guide/01_install_preparation.md)
+  * [安装基础组件](install_guide/02_install_basic_components.md)
+  * [安装MML应用](install_guide/03_install_app.md)
+  * [配置MML应用](install_guide/04_config_app.md)
 * [运维手册](/operation_guide.md)
 
