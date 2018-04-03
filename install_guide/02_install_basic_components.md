@@ -23,14 +23,14 @@
 
 1. 在BASE1主机上生成公有和私有SSH密钥。
 
-```
-# ssh-keygen -t rsa
-```
+    ```
+    # ssh-keygen -t rsa
+    ```
 2. 把BASE1主机的公钥复制到远程机器的authorized_keys文件中(包括BASE1主机)。
 
-```
-# ssh-copy-id <remote_host>
-```
+    ```
+    # ssh-copy-id <remote_host>
+    ```
     说明：
         * 其中<remote_hosts>是指包括BASE1主机在内的集群内所有主机的IP地址，而不是主机名。
         * 执行该命令后需要输入yes并回车，然后根据提示输入远程主机的SSH密码。
@@ -53,6 +53,18 @@
     # ping <remote_host>
     ```
     说明：其中<remote_hosts>是指集群内的所有主机的IP地址，并且这个IP地址一定是属于主机的某个网卡的，而不是弹性IP、映射IP或者虚拟IP。
+
+* 设置主机名
+
+    使用hostnamectl命令在集群中每个主机上设置主机名。例如:
+
+
+    ```
+    # hostnamectl set-hostname=<fully.qualified.domain.name> --static
+    ```
+    说明：其中<full.qualified.domain.name>是指完全合格域名/全称域名，由主机名+域名组成。故而设置主机名时，最好加上域名，如base1.zetyun.com，而不是直接使用base1作为主机名。
+
+
 
 
 
