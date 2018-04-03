@@ -1,8 +1,5 @@
 # Summary
 
-* [DataCanvas MML 产品文档](/README.md)
-  * 日志检索命令手册
-  * 日志检索命令
 * [产品白皮书](/white_paper.md)
   * [前言](white_paper/instruction.md)
   * [产品概述](white_paper/summary.md)
@@ -20,6 +17,9 @@
   * [系统性能](white_paper/system_performance.md)
   * [系统配置](white_paper/system_configuration.md)
   * [经典案例](white_paper/case.md)
+* [DataCanvas MML 产品文档](/README.md)
+  * [日志检索命令手册](ri-zhi-jian-suo-ming-ling-shou-ce.md)
+  * [日志检索命令](ri-zhi-jian-suo-ming-ling.md)
 * [用户手册](/user_guide.md)
 * [日志检索语法参考](log_search.md)
   * [BNF范式](log_search/BNF.md)
