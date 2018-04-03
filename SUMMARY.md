@@ -1,8 +1,8 @@
 # Summary
 
 * [DataCanvas MML 产品文档](/README.md)
-  * 日志检索命令手册
-  * 日志检索命令
+  * [日志检索命令手册](ri-zhi-jian-suo-ming-ling-shou-ce.md)
+  * [日志检索命令](ri-zhi-jian-suo-ming-ling.md)
 * [产品白皮书](/white_paper.md)
   * [前言](white_paper/instruction.md)
   * [产品概述](white_paper/summary.md)
@@ -44,8 +44,8 @@
       * movingavg
   * [附录](log_search/appendix.md)
     * [聚合函数列表](log_search/appendix/ju-he-han-shu-lie-biao.md)
-    * 时间跨度单位表
-    * 时间格式化
+    * [时间跨度单位表](log_search/appendix/shi-jian-kua-du-dan-wei-biao.md)
+    * [时间格式化](log_search/appendix/shi-jian-ge-shi-hua.md)
 * [安装手册](/install_guide.md)
 * [运维手册](/operation_guide.md)
 
