@@ -43,7 +43,7 @@
       * top
       * movingavg
   * [附录](log_search/appendix.md)
-    * 聚合函数列表
+    * [聚合函数列表](log_search/appendix/ju-he-han-shu-lie-biao.md)
     * 时间跨度单位表
     * 时间格式化
 * [安装手册](/install_guide.md)

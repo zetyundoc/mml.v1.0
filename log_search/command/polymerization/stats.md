@@ -26,7 +26,7 @@ bucket &lt;field-name&gt;&lt;bucketing-option&gt;&lt;aggr-function&gt;\(&lt;fiel
 | start-end | end=&lt;num&gt; \|& start=&lt;num&gt; | 设置数字型数据桶的最小和最大范围。在 \[start, end\] 范围之外的数据将被放弃 |
 
 &lt;aggr-function&gt;  
-**描述**： 聚合函数支持列表，参考聚合函数列表  
+**描述**： 聚合函数支持列表，参考[附录：聚合函数列表](/log_search/appendix/ju-he-han-shu-lie-biao.md)  
 &lt;field-name&gt;  
 **描述**：字段名  
 &lt;new-field-name&gt;  
