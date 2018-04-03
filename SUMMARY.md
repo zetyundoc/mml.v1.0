@@ -35,7 +35,13 @@
       * [filter](log_search/command/filter/filter.md)
       * [limit](log_search/command/filter/limit.md)
     * [排序](log_search/command/sorting.md)
+      * [sort](log_search/command/sorting/sort.md)
     * [聚合](log_search/command/polymerization.md)
+      * [stats](log_search/command/polymerization/stats.md)
+      * bucket
+      * transaction
+      * top
+      * movingavg
   * [附录](log_search/appendix.md)
     * 聚合函数列表
     * 时间跨度单位表
