@@ -10,6 +10,7 @@
 ```
 # service sshd start
 ```
+
 2. 将SSH设置为自启动服务。
 
 ```
