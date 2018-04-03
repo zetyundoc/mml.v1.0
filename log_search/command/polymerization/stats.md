@@ -22,8 +22,8 @@ bucket &lt;field-name&gt;&lt;bucketing-option&gt;&lt;aggr-function&gt;\(&lt;fiel
 | :--- | :--- | :--- |
 | bins | bins=&lt;int&gt; | 设置最多离散为多少个数据箱 |
 | minspan | minspan=&lt;span-length&gt; | 指定最小的跨度粒度,以自动使用来自数据时间范围的推断跨度 |
-| span | span = &lt;log-span&gt; \|&&lt;span-length&gt; | 使用基于时间的跨度长度或基于对数的跨度设置每个数据桶的大小 |
-| start-end | end=&lt;num&gt; \|& start=&lt;num&gt; | 设置数字型数据桶的最小和最大范围。在 \[start, end\] 范围之外的数据将被放弃 |
+| span | span = &lt;log-span&gt;&#124&lt;span-length&gt; | 使用基于时间的跨度长度或基于对数的跨度设置每个数据桶的大小 |
+| start-end | end=&lt;num&gt; &#124 start=&lt;num&gt; | 设置数字型数据桶的最小和最大范围。在 \[start, end\] 范围之外的数据将被放弃 |
 
 &lt;aggr-function&gt;  
 **描述**： 聚合函数支持列表，参考[附录：聚合函数列表](/log_search/appendix/ju-he-han-shu-lie-biao.md)  
