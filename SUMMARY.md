@@ -44,8 +44,6 @@
       * [movingavg](log_search/command/aggregation/movingavg.md)
   * [附录](log_search/appendix.md)
     * [聚合函数列表](log_search/appendix/aggregation_list.md)
-    * [时间跨度单位表](log_search/appendix/time_span.md)
-    * [时间格式化](log_search/appendix/time_format.md)
     * [日志检索语句示例](log_search/appendix/example.md)
 * [安装手册](/install_guide.md)
 * [运维手册](/operation_guide.md)
