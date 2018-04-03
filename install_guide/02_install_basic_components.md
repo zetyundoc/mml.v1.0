@@ -101,3 +101,139 @@
     /dev/sdc	/mnt/disk02	ext4	defaults	0  0
     ```
     说明:不能复制/etc/fstab文件到集群中的其它主机。即使每个主机的磁盘挂载设置（例如磁盘名称和挂载点目录）都是相同的也不能复制，因为fstab文件上面的磁盘或分区文件是通过唯一识别码UUID挂载的，而每个主机的系统分区UUID是不一样的，因此配置完1个节点后不能将/etc/fstab文件复制到其它所有节点。
+
+## 执行安装步骤
+MML基础组价提供自动化安装脚本，在执行该脚本前需要先修改配置文件，用于指定安装节点的IP地址等信息。
+
+1. 将安装包mml-installer.tar.gz上传到基础节点root用户家目录。
+2. 解压安装包。
+
+    ```
+    # cd 
+    # tar -zxvf mml-installer.tar.gz
+    ```
+
+3. 修改配置文件。
+    ```
+    # vi conf/hosts
+    ```
+    配置文件示例如下所示，一般只需要根据实际情况修改其中的IP地址即可。
+    
+    ```
+    # All host IP addresses of the cluster
+    [all-ips:children]
+    master-nodes
+    slave-nodes
+    app-server
+
+    # master-node is also considered as slave-node by default
+    [master-nodes:children]
+    master1
+    master2
+    master3
+
+    [slave-nodes]
+
+    [master1]
+    192.168.80.163
+    [master2]
+    192.168.80.164
+    [master3]
+    192.168.80.165
+
+    [all:vars]
+    # Store packages, high-capacity disk, without trailing slash.
+    data_path=/mnt/disk01
+
+    # Hostname pattern
+    # Hostname will be updated if it equals 'localhost' or 'localhost.localdomain'
+    hostname_prefix=base
+    hostname_domain=zetyun.com
+
+    [nginx-server:children]
+    app-server
+
+    [app-server]
+    192.168.80.134
+    ```
+
+4. 修改安装脚本权限。
+
+    ```
+    # chmod a+x bin/*.sh 
+    ```
+5. 执行安装脚本。
+
+    ```
+    # ./bin/mml.sh 
+    ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
