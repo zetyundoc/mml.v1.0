@@ -7,6 +7,8 @@
 
 ![](/user_guide/log_center/picture/实时检索.png)
 
+
+
 用户可以输入日志检索语句来查询对应的日志信息；系统支持的检索语法可单击“？使用SPL语法”或详见《日志检索语法参考》手册。  
 日志检索语句分为三类：
 
@@ -20,5 +22,4 @@
 ![](/user_guide/log_center/picture/聚合检索.png)
 
 
-图表
 
