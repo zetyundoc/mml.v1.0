@@ -22,7 +22,7 @@
   * [快速入门](user_guide/kuai-su-ru-men.md)
   * [数据集成](user_guide/log_center.md)
     * [实时检索](user_guide/data_integration/real_time.md)
-    * [日志接入](user_guide/log_center/log_access.md)
+    * [日志接入](user_guide/data_integration/log_access.md)
     * [接入配置](user_guide/log_center/access_configuration.md)
     * [检索审计](user_guide/log_center/search_audit.md)
   * [监控中心](user_guide/monitoring_center.md)
