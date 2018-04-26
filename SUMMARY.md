@@ -26,7 +26,7 @@
     * [接入配置](user_guide/log_center/access_configuration.md)
     * [检索审计](user_guide/data_integration/search_audit.md)
   * [监控中心](user_guide/monitoring_center.md)
-    * [商管中心](user_guide/monitoring_center/bm_center.md)
+    * [创建看板](user_guide/monitoring_center/bm_center.md)
     * [统一运维](user_guide/monitoring_center/unified_om.md)
     * [监控配置](user_guide/monitoring_center/monitoring_configuration.md)
   * [应用拓扑](user_guide/application_topology.md)
