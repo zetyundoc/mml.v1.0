@@ -22,6 +22,12 @@
 
   是否是菜单：“是”表示在菜单栏里展现；“否”表示在菜单栏里隐藏。
   
+  菜单URL：新建菜单对应的URL地址。
   
+  父菜单：如选择父菜单，则表示新增的权限名称为所选父菜单的子菜单。
+  
+  菜单参数：如应用UUMS统一用户鉴权系统内的菜单，系统可自动关联。
+  
+  菜单ICON：用户可任意选择菜单图标。输入[https://ant.design/components/icon-cn/](https://ant.design/components/icon-cn/)网页中对应的ICON名称即可。
 
 
