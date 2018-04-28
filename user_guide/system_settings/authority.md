@@ -4,7 +4,7 @@
 
 **说明**：管理员账户拥有所有权限。系统内置部分权限供用户使用。
 
-##权限管理
+##新增权限
 
 ###前提条件
 
@@ -30,4 +30,8 @@
   
   菜单ICON：用户可任意选择菜单图标。输入[https://ant.design/components/icon-cn/](https://ant.design/components/icon-cn/)网页中对应的ICON名称即可。
 
+3. 单击“确定”。
 
+##权限管理
+
+###
